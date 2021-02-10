@@ -144,9 +144,26 @@ header {
     font-size: 40px;
 }
 
-/* footer {
+footer {
     background-color: teal;
-} */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        opacity:1;
+    transform: scale(1);
+    }
+}
+
+#bienvenida {
+    animation: fadeIn 5s;
+}
 
 /* Trabajos */
 
@@ -225,19 +242,7 @@ hr {
 }
 
 /*  */
-@keyframes fadeIn {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    transform: scale(1.2);
-    }
-}
 
-#bienvenida {
-    animation: fadeIn 5s;
-  }
 
 /*  */
 
