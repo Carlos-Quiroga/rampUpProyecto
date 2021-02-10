@@ -1,4 +1,8 @@
-/* Biografia */
+  /* Biografia */
+
+main {
+      margin-top: 80px;
+}
 
 .wrapper {
     margin: 0 auto;
@@ -13,8 +17,9 @@
 
 .fotoPrincipal {
     width: 100%;
-    margin: 0;
+    margin: 0 2%;
 }
+
 img {
     width: 100%;
 }
@@ -40,6 +45,7 @@ img {
 .collage {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 2%;
 }
 
 .collage figure {
@@ -72,6 +78,7 @@ header {
 .logo {
     width: 30%;
     margin-left: 5%;
+    color: rgb(128, 240, 128);
 }
 
 .links {
@@ -83,12 +90,12 @@ header {
 
 .section a {
     text-decoration: none;
-    color: black;  
+    color: rgb(255, 255, 255);  
 }
 
 .section a:hover  {
-    background-color: rgb(196, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(108, 206, 152);
+    color: rgb(24, 71, 63);
     transition: background-color 1s;
 }
 
@@ -98,13 +105,14 @@ header {
 
 .dropdown:hover .content {
     display: block; 
-    background-color: rgb(255, 196, 0);
-    color: rgb(57, 160, 146)     
+    background-color: rgb(108, 206, 152);
+    color: rgb(24, 71, 63);     
 }
 
 .content a:hover {
-    background-color: rgb(82, 82, 82);
-    color: rgb(255, 255, 255);
+    background-color: rgb(24, 71, 63);
+    color: rgb(108, 206, 152);
+    text-decoration: none;
 } 
 
 
@@ -147,9 +155,9 @@ header {
     margin: 0 auto;
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     background-color: rgb(52, 181, 255)
 }
 
@@ -263,6 +271,7 @@ hr {
 
 @media screen and (min-width: 321px) {
    
+    
     /* biografia */
     .wrapper {
         width: 320px;
@@ -277,9 +286,9 @@ hr {
         flex-direction: row;
         justify-content: space-around;
     }
-    .miscelanea {
-        flex-direction: row;
-        justify-content: space-around;
+
+    .centros {
+        width: 33%;
     }
     
     /* form */
@@ -303,6 +312,9 @@ hr {
 
 @media screen and (min-width: 481px) {
    
+    main {
+        margin-top: 59px;
+    }
     /* biografia */
     .wrapper {
         width: 480px;
@@ -310,6 +322,11 @@ hr {
    
     img {
             width: 200px;
+    }
+
+    .miscelanea {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .wrapperTrabajo {
