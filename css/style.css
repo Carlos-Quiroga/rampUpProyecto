@@ -167,7 +167,6 @@ footer {
 
 /* Trabajos */
 
-
 .wrapperTrabajo {
     margin: 0 auto;
     width: 100%;
@@ -213,7 +212,6 @@ footer {
 .imagen {
     width: 90px;
     height: 90px;
-    /* width: 15%; */
     margin:0;
     padding:0;
     border-radius: 50%;
@@ -237,14 +235,9 @@ footer {
 
 hr {
     border : 1px solid rgb(230, 230, 230);
-    /* border-radius: 50%; */
     margin: 5px 3%;
 }
 
-/*  */
-
-
-/*  */
 
 /* Contacto */
 
@@ -268,15 +261,10 @@ hr {
     margin: 5px 5%;
 }
 
-
-
-/*  */
-
 /* responsive */
 
 @media screen and (min-width: 321px) {
    
-    
     /* biografia */
     .wrapper {
         width: 320px;
@@ -320,6 +308,7 @@ hr {
     main {
         margin-top: 59px;
     }
+    
     /* biografia */
     .wrapper {
         width: 480px;
